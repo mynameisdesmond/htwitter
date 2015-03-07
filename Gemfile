@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#added this to file for simple form
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
