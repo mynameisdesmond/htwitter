@@ -1,6 +1,6 @@
-tweets go here
 
 <%= simple_form_for @tweet do |f| %>
   <%= f.input :content %>
-  <%= f.button :submit %>
+  <%= f.button :submit, value: "continue",
+  	class: 'btn btn-large btn-danger' %>
 <% end %>
