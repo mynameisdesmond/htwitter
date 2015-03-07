@@ -6,6 +6,7 @@ class TweetsController < ApplicationController
 
 	def create
 		@tweet = Tweet.new(tweet_params)
+		@tweet.user = current_user
 		if @tweet.save
 			flash[:danger] = "You have created a tweet"
 			redirect_to new_tweet_path		
