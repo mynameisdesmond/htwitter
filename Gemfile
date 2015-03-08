@@ -19,6 +19,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem 'twitter-text', '~> 1.10.0'
+
 #act as follower
 gem "acts_as_follower"
 
