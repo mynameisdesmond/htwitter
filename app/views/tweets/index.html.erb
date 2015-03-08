@@ -5,6 +5,12 @@
 		<% if tweet.user.profile %>
 			<li class="list-group-item">
 				<%= tweet.content %> | <%= link_to tweet.user.profile.first_name, profile_path(tweet.user.profile) %>
+
+				<%= simple_form_for :follows, url: follows_path do |f| %>
+					<%= f.button :submit, value: 'Follow' %>
+				<% end %>
+
+
 			</li>
 		<% end %>
 	<% end %>

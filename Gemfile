@@ -19,6 +19,9 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+#act as follower
+gem "acts_as_follower"
+
 #gem for uploading file
 gem 'carrierwave'
 # Use jquery as the JavaScript library
